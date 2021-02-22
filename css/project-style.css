@@ -1,0 +1,132 @@
+:root {
+    --font-roboto: 'Roboto', sans-serif;
+    --blue: #31749D;
+    --white: #EDEDED;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-roboto);
+}
+
+body {
+    background-color: var(--blue);
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+}
+
+.separator-blue div {
+    height: 0.5rem;
+    width: 100%;
+    background-color: var(--blue);
+}
+
+.separator {
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+/* -----------------HEADER------ */
+header {
+    position: fixed;
+    top: 0;
+    background-color: var(--blue);
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+.header-logo img {
+    height: 3.5rem;
+}
+.menu a {
+    font-size: 1.6rem;
+    color: var(--white);
+    margin-left: 1.5rem;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.separator-white div {
+    height: 1rem;
+    width: 100%;
+    background-color: var(--white);
+}
+/* ----------------------------- */
+/* -----------------MAIN-------- */
+main {
+    font-size: 1.7rem;
+}
+main .container {
+    background-color: var(--white);
+    padding: 1rem;
+    margin: 8rem auto 1rem auto;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.prototipe .content {
+    display: flex;
+    justify-content: center;
+}
+.content img {
+    height: 30rem;
+    margin: auto 2rem;
+}
+.title {
+    text-align: center;    
+}
+.text {
+    margin: auto 2rem;
+    text-align: justify;
+    max-width: 650px;
+}
+
+
+.mission .text {
+    order: 1;
+}
+.mission img {
+    order: 2;
+}
+
+
+/* ----------------------------- */
+/* -----------------FOOTER------ */
+footer {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    background-color: var(--white);
+}
+footer .footer-info {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+}
+.footer-info a {
+    color: black;
+}
+.footer-info a:hover {
+    text-decoration: underline;
+}
+/* ----------------------------- */
