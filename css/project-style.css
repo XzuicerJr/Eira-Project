@@ -88,6 +88,10 @@ main .container {
     display: flex;
     justify-content: center;
 }
+.presentation .text {
+    display: none;
+}
+
 .content img {
     height: 30rem;
     margin: auto 2rem;
@@ -109,7 +113,6 @@ main .container {
     order: 2;
 }
 
-
 /* ----------------------------- */
 /* -----------------FOOTER------ */
 footer {
@@ -130,3 +133,27 @@ footer .footer-info {
     text-decoration: underline;
 }
 /* ----------------------------- */
+
+@media screen and (max-width: 720px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .presentation .text {
+        display: flex;
+    }
+    .presentation .pdf {
+        display: none;
+    }
+    .content img {
+        height: 30rem;
+        margin: 2rem auto;
+    }
+
+    .mission .text {
+        order: 2;
+    }
+    .mission img {
+        order: 1;
+    }
+}
