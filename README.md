@@ -5,5 +5,7 @@ This project is created in the hackathon held in 2020 by Intituto Profesional Du
 
 ## TEAM
 • César Zamora
+
 • Tamar Andrade
+
 • Vicente Carrasco
